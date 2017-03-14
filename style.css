@@ -1,0 +1,364 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: ;
+	line-height: ;
+	background-color: black;
+	color: #000000;
+	background: ;
+
+	}
+p {
+	margin-top: 0;
+	text-align: ;
+	}
+h3 {
+	font: ;
+	letter-spacing: ;
+	margin-bottom: ;
+	color: ;
+	}
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #B7A5DF;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: ;
+	}
+
+
+/* specific divs */
+.page-wrapper {
+	/*zen ktty*/
+	background:
+	padding: 0px 10px 15px 20px;
+	height: 2000px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 100px 50px 60px 120px;
+	position: absolute;
+	background-image: url(zeninvert3.png);
+	/*background-image: url(http://1.bp.blogspot.com/_NP3Nahb4ZtY/TJ0G4erEYBI/AAAAAAAAAj8/iVjZPeZKBvA/s1600/60032_1591828046185_1550415535_31508970_2624569_n%5B1%5D.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size:auto;
+	overflow: auto;
+	/*position:relative;*/
+	z-index: 10px;
+	}
+
+.intro {
+	min-width: ;
+	width: ;
+	}
+/*CSS ZEN GARDEN*/
+header {
+
+	/*z-index: 1;*/
+}
+
+header > h1 {
+	text-transform: uppercase;
+	letter-spacing: 40px;
+	font-size: 55px;
+	color: white;
+	font-family: sans-serif;
+	font-weight:900;
+	position: relative;
+	z-index: 1;
+	background-color: black;
+	/*word-wrap: break-word;*/
+	/*border: 0px 0px 0px 0px;*/
+	display:inline;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	margin-top: 0px;
+
+
+	padding-top: 25px;
+	text-indent: ;
+	white-space:;
+	overflow: ;
+	}
+	/*The beauty of...*/
+header > h2 {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 25px;
+	font-size: 55px;
+	color: white;
+	font-family: sans-serif;
+	font-weight:900;
+	position: relative;
+	z-index: 1;
+	background-color: black;
+	text-align: center;
+
+	display: inline;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px;
+	}
+header {
+	padding-top: ;
+	height: ;
+}
+
+/*1st div class in body*/
+.summary {
+	position: fixed;
+	top: 100px;
+	left: 250px;
+	width: 300px;
+	border-style: 3px ridge black;
+	background-color: white;
+	border-radius: 50%;
+	width: 300px;
+	height: 150px;
+	padding: 60px 15px 0px 15px;
+	opacity: 0.9;
+  filter: alpha(opacity=50);
+	z-index: 1;
+	}
+	/*All paragraphs within the first div*/
+.summary p {
+	font: ;
+	text-align:;
+	color: black;
+	text-align: center;
+	z-index: 10;
+
+	}
+/*The second div class in the body*/
+.preamble {
+	position: relative;
+	 top: 250px;
+	 right: 0px;
+	 width: 300px;
+	 border: 3px solid black;
+	 color: white;
+	 display: inline-block;
+	text-align:left;
+	font-family: 'Indie Flower', cursive;
+	clear: ;
+	padding: ;
+	margin: ;
+	float: left;
+	}
+	/*maybe the third*/
+.explanation {
+	position: relative;
+	 top: 160px;
+	 left: 610px;
+	 width: 300px;
+	 border: 3px solid black;
+	 color: white;
+	 display: inline-block;
+	 text-align: right;
+	 font-family: 'Indie Flower', cursive;
+	}
+
+	.participation {
+		position: relative;
+		 top: 830px;
+		 right: 620px;
+		 width: 300px;
+		 border: 3px solid black;
+		 color: white;
+		 display: inline-block;
+		 text-align: left;
+		 font-family: 'Indie Flower', cursive;
+		}
+
+		.benefits {
+			position: relative;
+			 top: 550px;
+			 right: 10px;
+			 width: 300px;
+			 border: 3px solid black;
+			 color: white;
+			 display: inline-block;
+			 text-align: right;
+			 font-family: 'Indie Flower', cursive;
+		}
+
+		.requirements {
+			position: relative;
+			 top: 100px;
+			 right: 500px;
+			 width: 300px;
+			 border: 3px solid black;
+			 color: white;
+			 display: inline-block;
+			 font-family: 'Indie Flower', cursive;
+		}
+
+		footer a {
+			position: relative;
+			 top: 900;
+			 right: 300;
+			 width: 300px;
+			 border: 3px solid black;
+			 color: white;
+			 display: block;
+		}
+
+	}
+/*101 down the bottom with links in it* - 101/
+footer {
+	text-align: ;
+	}
+/*the actual links*/
+footer a:link, footer a:visited {
+	margin-right: ;
+	}
+/*112 - aside c*/
+.design-selection {
+	position: relative;
+	bottom: 300px;
+	right: 300px ;
+	color: white;
+	width: 215px;
+	height: auto;
+	display: inline-block;
+	border: 3px solid black;
+	font-family: 'Indie Flower', cursive;
+	text-align: right;
+	/*display: block;*/
+  /*z-index: 3;*/
+	position:absolute;
+	}
+
+	.design-selection  {
+		position: relative;
+		 top: 450px;
+		 left: 900px;
+		 width: 300px;
+		 border: 3px solid white;
+		 display: block;
+
+	}
+
+.design-archives {
+	position: relative;
+	 top: 530px;
+	 left: 400px;
+	 width: 300px;
+	 border: 3px solid white;
+	 display: inline-block;
+ }
+
+.zen-resources {
+ 		position: relative;
+ 		 top: 0;
+ 		 right: 310px;
+ 		 width: 300px;
+ 		 border: 3px solid black;
+ 		 display: inline-block;
+ 	 }
+
+}
+/*113 within side bar a div tag*/
+.sidebar .wrapper {
+	font: ;
+	background: ;
+	padding: ;
+	margin-top: ;
+	width: ;
+	}
+
+
+	/*116 - within sidebar and wrapper and */
+.sidebar h3.select {
+	background: ;
+	margin: ;
+	width: ;
+	height: ;
+	text-indent: ;
+	white-space: ;
+	overflow: ;
+	}
+	/*140 within sidebar and design-archives*/
+.sidebar h3.archives {
+	background: ;
+	margin: ;
+	width:;
+	height: ;
+
+	text-indent: ;
+	white-space: ;
+	overflow: ;
+	}
+	/*156 - within resources - 156*/
+.sidebar h3.resources {
+	background: ;
+
+	margin: ;
+	width:;
+	height: ;
+
+	text-indent: ;
+	white-space: ;
+	overflow: ;
+	}
+
+/*118 - within sidebar and wrapper*/
+.sidebar ul {
+	margin: ;
+	padding: ;
+	}
+	/*119 - with sidebar and wrapper*/
+.sidebar li {
+	line-height: ;
+	background: ;
+	display: ;
+	padding-top: ;
+	margin-bottom: ;
+	list-style-type: ;
+	}
+	/*for the links within sidebar list*/
+.sidebar li a:link {
+	color: #988F5E;
+	}
+.sidebar li a:visited {
+	color: #B3AE94;
+	}
+
+/*194 - one of the last div classes*/
+.extra1 {
+	background: t;
+	position: ;
+	top: ;
+	right: ;
+	width: ;
+	height: ;
+	}
